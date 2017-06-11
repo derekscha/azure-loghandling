@@ -1,0 +1,7 @@
+<27>Apr  5 06:11:29 raspberrypi smbd[7439]: [2018/04/05 06:11:29.617284,  0] smbd/service.c:1055(make_connection_snum)
+<46>Apr  5 06:11:29 raspberrypi rsyslogd-2177: imuxsock lost 294 messages from pid 7439 due to rate-limiting
+<86>Apr  5 06:18:20 raspberrypi smbd[7439]: pam_unix(samba:session): session closed for user backups
+<86>Apr  5 06:18:21 raspberrypi smbd[7439]: pam_unix(samba:session): session closed for user backups
+<86>Apr  5 06:18:21 raspberrypi smbd[7439]: pam_unix(samba:session): session opened for user backups by (uid=0)
+<86>Apr  5 06:18:24 raspberrypi smbd[7439]: pam_unix(samba:session): session opened for user backups by (uid=0)
+<27>Apr  5 06:18:38 raspberrypi monit[2338]: 'fs_media_04E6FCDE1C8C6073' filesytem flags changed to 0x1006

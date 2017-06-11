@@ -1,0 +1,12 @@
+{ originalMessage: '<27>Apr  5 06:18:38 raspberrypi monit[2338]: \'fs_media_04E6FCDE1C8C6073\' filesytem flags changed to 0x1006',
+  prival: 27,
+  facilityID: 3,
+  severityID: 3,
+  facility: 'daemon',
+  severity: 'err',
+  type: 'RFC3164',
+  time: 2017-04-05T05:18:38.000Z,
+  host: 'raspberrypi',
+  message: 'monit[2338]: \'fs_media_04E6FCDE1C8C6073\' filesytem flags changed to 0x1006',
+  process: 'monit',
+  pid: '2338' }

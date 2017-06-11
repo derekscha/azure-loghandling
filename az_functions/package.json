@@ -1,0 +1,35 @@
+{
+  "description": "",
+  "scripts": {
+    "test": "mocha"
+  },
+  "license": "MIT",
+  "private": true,
+  "bindings": [
+    {
+      "type": "eventHubTrigger",
+      "name": "eventHubMessages",
+      "direction": "in",
+      "path": "<EVENT HUB NAME>",
+      "connection": "<EVENT HUB CONNECTION>",
+      "cardinality": "one"
+    },
+    {
+      "type": "documentDB",
+      "name": "outputDocument",
+      "databaseName": "<Database Name>",
+      "collectionName": "<Collection Name>",
+      "createIfNotExists": true,
+      "connection": "<Document DB Connection>",
+      "direction": "out"
+    }
+  ],
+  "disabled": false,
+  "dependencies": {
+    "glossy": "^0.1.7"
+  },
+  "devDependencies": {
+    "mocha": "^3.4.2",
+    "fs": "^0.0.1-security"
+  }
+}
