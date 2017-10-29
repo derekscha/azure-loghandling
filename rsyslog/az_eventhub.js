@@ -1,7 +1,6 @@
 #!/usr/bin/nodejs
 //================================
-// Simple EventHub test - takes in a JSON settings file
-// containing settings for connecting to the Hub:
+// Simple EventHub publisher:
 // - protocol: should never be set, defaults to amqps
 // - SASKeyName: name of your SAS key which should allow send/receive
 // - SASKey: actual SAS key value

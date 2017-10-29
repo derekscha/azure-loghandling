@@ -22,6 +22,3 @@ Instructions for NodeJS implementation only. I have assumed that you have instal
 You can validate that you have the settings correctly specified in the NodeJS script by just running it in the foreground and typing messages into it. Each time you hit return, it'll send a message.
 
 It is sometimes helpful to setup a basic Azure Function app to just read from the Event Hub and echo out the message it received to the log on-screen.
-
-# TODO
-Actually use the .conf file as the configuration for the script.
